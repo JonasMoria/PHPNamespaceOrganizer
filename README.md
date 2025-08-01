@@ -6,9 +6,9 @@ Este projeto contém dois scripts utilitários escritos em PHP 7.0 para organiza
 ---
 
 ## 📂 Estrutura
-Para executar você deve inserir os scripts dentro da pasta `NamespaceUseStatementFixer` na raiz do seu projeto
+Para executar você deve inserir os scripts dentro da pasta `PHPNamespaceOrganizer` na raiz do seu projeto
 ```
-/NamespaceUseStatementFixer
+/PHPNamespaceOrganizer
   ├── fix-namespaces-and-uses-by-classes.php
   └── make-classes-statistics.php
 ```
@@ -67,7 +67,7 @@ $ignoreDirs = ['vendor', 'node_modules'];
 No terminal, na raiz do seu projeto, execute:
 
 ```bash
-php NamespaceUseStatementFixer/fix-namespaces-and-uses-by-classes.php
+php PHPNamespaceOrganizer/fix-namespaces-and-uses-by-classes.php
 ```
 
 ---
@@ -128,7 +128,7 @@ $user = new UserClass();
 ### ▶️ Como executar
 
 ```bash
-php NamespaceUseStatementFixer/make-classes-statistics.php
+php PHPNamespaceOrganizer/make-classes-statistics.php
 ```
 
 ---
